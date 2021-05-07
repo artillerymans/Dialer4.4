@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+   -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="applicationLabel">"拨号"</string>
+    <string name="launcherDialer">"拨号"</string>
+    <string name="dialerIconLabel">"拨号"</string>
+    <string name="recentCallsIconLabel">"通话记录"</string>
+    <string name="menu_sendTextMessage">"发送短信"</string>
+    <string name="recentCalls_callNumber">"呼叫<xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="recentCalls_editNumberBeforeCall">"呼叫之前编辑号码"</string>
+    <string name="recentCalls_addToContact">"添加到通讯录"</string>
+    <string name="recentCalls_removeFromRecentList">"从通话记录中删除"</string>
+    <string name="recentCalls_deleteAll">"清除通话记录"</string>
+    <string name="recentCalls_trashVoicemail">"删除语音邮件"</string>
+    <string name="recentCalls_shareVoicemail">"分享语音邮件"</string>
+    <string name="recentCalls_empty">"没有通话记录。"</string>
+    <string name="clearCallLogConfirmation_title">"要清除通话记录吗？"</string>
+    <string name="clearCallLogConfirmation">"系统将删除您的所有通话记录。"</string>
+    <string name="clearCallLogProgress_title">"正在清除通话记录..."</string>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">"语音邮件"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g> 封语音邮件"</item>
+    </plurals>
+    <string name="notification_action_voicemail_play">"播放"</string>
+    <string name="notification_voicemail_callers_list">"<xliff:g id="NEWER_CALLERS">%1$s</xliff:g>，<xliff:g id="OLDER_CALLER">%2$s</xliff:g>"</string>
+    <string name="notification_new_voicemail_ticker">"来自<xliff:g id="CALLER">%1$s</xliff:g>的新语音邮件"</string>
+    <string name="voicemail_playback_error">"无法播放语音邮件。"</string>
+    <string name="voicemail_buffering">"正在缓冲…"</string>
+    <string name="voicemail_fetching_content">"正在抓取语​​音邮件…"</string>
+    <string name="voicemail_fetching_timout">"无法抓取语音邮件。"</string>
+    <string name="call_log_voicemail_header">"只显示语音信箱留言"</string>
+    <string name="call_log_incoming_header">"只显示来电"</string>
+    <string name="call_log_outgoing_header">"只显示外拨电话"</string>
+    <string name="call_log_missed_header">"只显示未接来电"</string>
+    <string name="voicemail_status_voicemail_not_available">"无法连接到语音信箱服务器。"</string>
+    <string name="voicemail_status_messages_waiting">"无法连接到语音信箱服务器。新的语音邮件正在等待接收。"</string>
+    <string name="voicemail_status_configure_voicemail">"设置您的语音信箱。"</string>
+    <string name="voicemail_status_audio_not_available">"音频不可用。"</string>
+    <string name="voicemail_status_action_configure">"设置"</string>
+    <string name="voicemail_status_action_call_server">"呼叫语音信箱"</string>
+    <string name="voicemail_speed_slowest">"最慢"</string>
+    <string name="voicemail_speed_slower">"慢速"</string>
+    <string name="voicemail_speed_normal">"正常速度"</string>
+    <string name="voicemail_speed_faster">"快速"</string>
+    <string name="voicemail_speed_fastest">"最快"</string>
+    <string name="call_log_item_count_and_date">"(<xliff:g id="COUNT">%1$d</xliff:g>) <xliff:g id="DATE">%2$s</xliff:g>"</string>
+    <string name="sms_disambig_title">"选择号码"</string>
+    <string name="call_disambig_title">"选择号码"</string>
+    <string name="make_primary">"记住此选择"</string>
+    <string name="description_image_button_one">"一"</string>
+    <string name="description_image_button_two">"二"</string>
+    <string name="description_image_button_three">"三"</string>
+    <string name="description_image_button_four">"四"</string>
+    <string name="description_image_button_five">"五"</string>
+    <string name="description_image_button_six">"六"</string>
+    <string name="description_image_button_seven">"七"</string>
+    <string name="description_image_button_eight">"八"</string>
+    <string name="description_image_button_nine">"九"</string>
+    <string name="description_image_button_star">"星形符号"</string>
+    <string name="description_image_button_zero">"零"</string>
+    <string name="description_image_button_pound">"英镑符号"</string>
+    <string name="description_voicemail_button">"语音信箱"</string>
+    <string name="description_search_button">"搜索"</string>
+    <string name="description_dial_button">"拨打"</string>
+    <string name="description_delete_button">"退格"</string>
+    <string name="description_digits_edittext">"要拨打的号码"</string>
+    <string name="action_menu_call_history_description">"通话记录"</string>
+    <string name="action_menu_overflow_description">"更多选项"</string>
+    <string name="action_menu_dialpad_button">"拨号键盘"</string>
+    <string name="menu_copy">"复制"</string>
+    <string name="menu_show_outgoing_only">"仅显示外拨电话"</string>
+    <string name="menu_show_incoming_only">"仅显示来电"</string>
+    <string name="menu_show_missed_only">"仅显示未接来电"</string>
+    <string name="menu_show_voicemails_only">"只显示语音邮件"</string>
+    <string name="menu_show_all_calls">"显示所有通话"</string>
+    <string name="add_2sec_pause">"暂停时间延长2秒"</string>
+    <string name="add_wait">"延长等待时间"</string>
+    <string name="call_settings">"设置"</string>
+    <string name="menu_newContact">"新建联系人"</string>
+    <string name="menu_allContacts">"所有联系人"</string>
+    <string name="callDetailTitle">"通话详情"</string>
+    <string name="toast_call_detail_error">"无法读取所请求呼叫的详细信息。"</string>
+    <string name="dialer_useDtmfDialpad">"使用按键式键盘"</string>
+    <string name="dialer_returnToInCallScreen">"返回正在进行的通话"</string>
+    <string name="dialer_addAnotherCall">"添加通话"</string>
+    <string name="type_incoming">"来电"</string>
+    <string name="type_outgoing">"外拨电话"</string>
+    <string name="type_missed">"未接电话"</string>
+    <string name="type_voicemail">"语音信箱"</string>
+    <string name="actionIncomingCall">"来电"</string>
+    <string name="description_call_log_play_button">"播放语音邮件"</string>
+    <string name="description_call_log_incoming_call">"来电"</string>
+    <string name="description_call_log_outgoing_call">"去电"</string>
+    <string name="description_call_log_missed_call">"未接电话"</string>
+    <string name="description_call_log_voicemail">"语音邮件"</string>
+    <string name="description_add_contact">"添加联系人"</string>
+    <string name="description_view_contact">"查看联系人<xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_call">"呼叫<xliff:g id="NAME">%1$s</xliff:g>"</string>
+    <string name="description_send_text_message">"向<xliff:g id="NAME">%1$s</xliff:g>发送短信"</string>
+    <string name="description_call_log_unheard_voicemail">"未收听的语音邮件"</string>
+    <string name="description_start_voice_search">"开始语音搜索"</string>
+    <string name="call_log_empty_gecode">\u0020"</string>
+    <string name="menu_callNumber">"拨打 <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="unknown">"未知"</string>
+    <string name="voicemail">"语音信箱"</string>
+    <string name="private_num">"私密号码"</string>
+    <string name="payphone">"公用电话"</string>
+    <string name="dialerKeyboardHintText">"使用键盘拨号"</string>
+    <string name="dialerDialpadHintText">"拨号以添加通话"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%s</xliff:g> 分 <xliff:g id="SECONDS">%s</xliff:g> 秒"</string>
+    <string name="dialog_phone_call_prohibited_message">"电话未拨出"</string>
+    <string name="dialog_voicemail_not_ready_message">"要设置语音信箱，请转到“菜单”&gt;“设置”。"</string>
+    <string name="dialog_voicemail_airplane_mode_message">"要呼叫语音信箱，请先关闭飞行模式。"</string>
+    <string name="contact_list_loading">"正在加载..."</string>
+    <string name="imei">"移动通信国际识别码"</string>
+    <string name="meid">"MEID"</string>
+    <string name="simContacts_emptyLoading">"正从 SIM 卡中加载..."</string>
+    <string name="simContacts_title">"SIM 卡联系人"</string>
+    <string name="add_contact_not_available">"必须重新启用联系人应用才能使用此功能。"</string>
+    <string name="dialer_hint_find_contact">"输入姓名或手机号"</string>
+    <string name="call_log_all_title">"全部"</string>
+    <string name="call_log_missed_title">"未接电话"</string>
+    <string name="recentMissed_empty">"最近没有未接来电。"</string>
+    <string name="recentVoicemails_empty">"最近没有语音邮件。"</string>
+    <string name="show_all_contacts">"显示所有联系人"</string>
+    <string name="show_favorites_only">"仅显示常用联系人"</string>
+    <string name="call_log_activity_title">"通话记录"</string>
+    <string name="dialpad_0_number">"0"</string>
+    <string name="dialpad_1_number">"1"</string>
+    <string name="dialpad_2_number">"2"</string>
+    <string name="dialpad_3_number">"3"</string>
+    <string name="dialpad_4_number">"4"</string>
+    <string name="dialpad_5_number">"5"</string>
+    <string name="dialpad_6_number">"6"</string>
+    <string name="dialpad_7_number">"7"</string>
+    <string name="dialpad_8_number">"8"</string>
+    <string name="dialpad_9_number">"9"</string>
+    <string name="show_all_contacts_title">"所有联系人"</string>
+    <string name="show_all_contacts_button_text">"所有联系人"</string>
+    <string name="favorite_hidden">"已从“常用联系人”中删除"</string>
+    <string name="favorite_hidden_undo">"撤消"</string>
+    <string name="search_shortcut_call_number">"拨打<xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="search_shortcut_add_to_contacts">"添加到通讯录"</string>
+    <string name="num_missed_calls">"<xliff:g id="NUMBER">%s</xliff:g>个新的未接电话"</string>
+    <string name="no_favorites">"您收藏的联系人和经常通话\n的联系人都会显示在这里。\n现在就开始与联系人通话吧。"</string>
+    <string name="contact_tooltip">"点按图片可查看所有号码，按住图片可重新排序"</string>
+    <string name="description_dismiss">"关闭"</string>
+    <string name="call_log_activity_title_font_family">sans-serif-light</string>
+    <string name="show_all_contacts_title_font_family">sans-serif-light</string>
+    <string name="dialpad_star_number">*</string>
+    <string name="dialpad_pound_number">#</string>
+    <string name="dialpad_0_letters">+</string>
+    <string name="dialpad_1_letters"></string>
+    <string name="dialpad_2_letters">ABC</string>
+    <string name="dialpad_3_letters">DEF</string>
+    <string name="dialpad_4_letters">GHI</string>
+    <string name="dialpad_5_letters">JKL</string>
+    <string name="dialpad_6_letters">MNO</string>
+    <string name="dialpad_7_letters">PQRS</string>
+    <string name="dialpad_8_letters">TUV</string>
+    <string name="dialpad_9_letters">WXYZ</string>
+    <string name="dialpad_star_letters"></string>
+    <string name="dialpad_pound_letters"></string>
+    <string name="toast_text_copied">"文本已复制"</string>
+    <string name="call_custom">"拨打<xliff:g id="CUSTOM">%s</xliff:g>的电话号码"</string>
+    <string name="call_home">"拨打家庭电话号码"</string>
+    <string name="call_mobile">"拨打手机号码"</string>
+    <string name="call_work">"拨打公司电话号码"</string>
+    <string name="call_fax_work">"拨打公司传真号码"</string>
+    <string name="call_fax_home">"拨打家庭传真号码"</string>
+    <string name="call_pager">"拨打寻呼机号码"</string>
+    <string name="call_other">"拨打电话"</string>
+    <string name="call_callback">"拨打回拨号码"</string>
+    <string name="call_car">"拨打车载电话号码"</string>
+    <string name="call_company_main">"拨打公司总机号码"</string>
+    <string name="call_isdn">"拨打 ISDN 电话号码"</string>
+    <string name="call_main">"拨打主电话号码"</string>
+    <string name="call_other_fax">"拨打传真号码"</string>
+    <string name="call_radio">"拨打无线通讯电话号码"</string>
+    <string name="call_telex">"拨打电报号码"</string>
+    <string name="call_tty_tdd">"拨打 TTY/TDD 号码"</string>
+    <string name="call_work_mobile">"拨打公司手机号码"</string>
+    <string name="call_work_pager">"拨打公司寻呼机号码"</string>
+    <string name="call_assistant">"拨打<xliff:g id="ASSISTANT">%s</xliff:g>的电话号码"</string>
+    <string name="call_mms">"拨打彩信电话号码"</string>
+    <string name="sms_custom">"向<xliff:g id="CUSTOM">%s</xliff:g>的电话号码发短信"</string>
+    <string name="sms_home">"向家庭电话号码发短信"</string>
+    <string name="sms_mobile">"向手机发短信"</string>
+    <string name="sms_work">"向公司电话号码发短信"</string>
+    <string name="sms_fax_work">"向公司传真号码发短信"</string>
+    <string name="sms_fax_home">"向家庭传真号码发短信"</string>
+    <string name="sms_pager">"向寻呼机号码发短信"</string>
+    <string name="sms_other">"发短信"</string>
+    <string name="sms_callback">"向回拨号码发短信"</string>
+    <string name="sms_car">"向车载电话号码发短信"</string>
+    <string name="sms_company_main">"向公司总机号码发短信"</string>
+    <string name="sms_isdn">"向 ISDN 电话号码发短信"</string>
+    <string name="sms_main">"向主电话号码发短信"</string>
+    <string name="sms_other_fax">"向传真号码发短信"</string>
+    <string name="sms_radio">"向无线通讯电话号码发短信"</string>
+    <string name="sms_telex">"向电报号码发短信"</string>
+    <string name="sms_tty_tdd">"向 TTY/TDD 号码发短信"</string>
+    <string name="sms_work_mobile">"向公司手机发短信"</string>
+    <string name="sms_work_pager">"向公司寻呼机号码发短信"</string>
+    <string name="sms_assistant">"向<xliff:g id="ASSISTANT">%s</xliff:g>发短信"</string>
+    <string name="sms_mms">"向彩信电话号码发短信"</string>
+    <string name="clearFrequentsConfirmation_title">"是否清除常用联系人？"</string>
+    <string name="clearFrequentsConfirmation">"此操作会清除“联系人”和“拨号”应用中的常用联系人列表，并强制电子邮件应用重新获取您最常使用的联系地址。"</string>
+    <string name="clearFrequentsProgress_title">"正在清除常用联系人…"</string>
+    <string name="status_available">"在线"</string>
+    <string name="status_away">"离开"</string>
+    <string name="status_busy">"忙碌"</string>
+    <string name="contactsList">"通讯录"</string>
+    <string name="local_invisible_directory">"其他"</string>
+    <string name="directory_search_label">"目录"</string>
+    <string name="local_search_label">"所有联系人"</string>
+    <string name="user_profile_contacts_list_header">"我"</string>
+    <string name="search_results_searching">"正在搜索…"</string>
+    <string name="foundTooManyContacts">"找到超过 <xliff:g id="COUNT">%d</xliff:g> 位联系人。"</string>
+    <string name="listFoundAllContactsZero">"没有联系人"</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">"找到 1 位联系人"</item>
+        <item quantity="other">"找到 <xliff:g id="COUNT">%d</xliff:g> 位联系人"</item>
+    </plurals>
+    <string name="description_quick_contact_for">"<xliff:g id="NAME">%1$s</xliff:g>的快速联系人照片"</string>
+    <string name="missing_name">"（无姓名）"</string>
+    <string name="favoritesFrequentCalled">"经常呼叫的联系人"</string>
+    <string name="favoritesFrequentContacted">"常用联系人"</string>
+    <string name="description_view_contact_detail">"查看联系人"</string>
+    <string name="list_filter_phones">"所有拥有电话号码的联系人"</string>
+    <string name="view_updates_from_group">"查看最新动态"</string>
+    <string name="account_phone">"仅保存在手机中，不同步"</string>
+    <string name="nameLabelsGroup">"姓名"</string>
+    <string name="nicknameLabelsGroup">"昵称"</string>
+    <string name="full_name">"姓名"</string>
+    <string name="name_given">"名字"</string>
+    <string name="name_family">"姓氏"</string>
+    <string name="name_prefix">"姓名前缀"</string>
+    <string name="name_middle">"中间名"</string>
+    <string name="name_suffix">"姓名后缀"</string>
+    <string name="name_phonetic">"姓名拼音"</string>
+    <string name="name_phonetic_given">"名字拼音"</string>
+    <string name="name_phonetic_middle">"中间名拼音"</string>
+    <string name="name_phonetic_family">"姓氏拼音"</string>
+    <string name="phoneLabelsGroup">"电话"</string>
+    <string name="emailLabelsGroup">"电子邮件"</string>
+    <string name="postalLabelsGroup">"地址"</string>
+    <string name="imLabelsGroup">"即时通讯"</string>
+    <string name="organizationLabelsGroup">"公司或组织"</string>
+    <string name="relationLabelsGroup">"关系"</string>
+    <string name="eventLabelsGroup">"特殊日期"</string>
+    <string name="sms">"发送短信"</string>
+    <string name="postal_address">"地址"</string>
+    <string name="ghostData_company">"公司"</string>
+    <string name="ghostData_title">"职务"</string>
+    <string name="label_notes">"备注"</string>
+    <string name="label_sip_address">"互联网电话"</string>
+    <string name="websiteLabelsGroup">"网站"</string>
+    <string name="groupsLabel">"群组"</string>
+    <string name="email_home">"向个人邮箱发送电子邮件"</string>
+    <string name="email_mobile">"向手机发送电子邮件"</string>
+    <string name="email_work">"向工作邮箱发送电子邮件"</string>
+    <string name="email_other">"发送电子邮件"</string>
+    <string name="email_custom">"向<xliff:g id="CUSTOM">%s</xliff:g>发送电子邮件"</string>
+    <string name="email">"发送电子邮件"</string>
+    <string name="postal_street">"街道"</string>
+    <string name="postal_pobox">"邮政信箱"</string>
+    <string name="postal_neighborhood">"社区"</string>
+    <string name="postal_city">"城市"</string>
+    <string name="postal_region">"省/自治区/直辖市"</string>
+    <string name="postal_postcode">"邮编"</string>
+    <string name="postal_country">"国家/地区"</string>
+    <string name="map_home">"查看住宅地址"</string>
+    <string name="map_work">"查看工作地址"</string>
+    <string name="map_other">"查看地址"</string>
+    <string name="map_custom">"查看<xliff:g id="CUSTOM">%s</xliff:g>地址"</string>
+    <string name="chat_aim">"使用 AIM 聊天"</string>
+    <string name="chat_msn">"使用 Windows Live 聊天"</string>
+    <string name="chat_yahoo">"使用雅虎通聊天"</string>
+    <string name="chat_skype">"使用 Skype 聊天"</string>
+    <string name="chat_qq">"使用 QQ 聊天"</string>
+    <string name="chat_gtalk">"使用 Google Talk 聊天"</string>
+    <string name="chat_icq">"使用 ICQ 聊天"</string>
+    <string name="chat_jabber">"使用 Jabber 聊天"</string>
+    <string name="chat">"聊天"</string>
+    <string name="description_minus_button">"删除"</string>
+    <string name="expand_collapse_name_fields_description">"展开或折叠姓名字段"</string>
+    <string name="list_filter_all_accounts">"所有联系人"</string>
+    <string name="list_filter_all_starred">"已加星标"</string>
+    <string name="list_filter_customize">"自定义"</string>
+    <string name="list_filter_single">"联系人"</string>
+    <string name="display_ungrouped">"其他所有联系人"</string>
+    <string name="display_all_contacts">"所有联系人"</string>
+    <string name="menu_sync_remove">"删除同步群组"</string>
+    <string name="dialog_sync_add">"添加同步群组"</string>
+    <string name="display_more_groups">"更多群组..."</string>
+    <string name="display_warn_remove_ungrouped">"如果您停止同步“<xliff:g id="GROUP">%s</xliff:g>”，将同时停止同步所有未分组的联系人。"</string>
+    <string name="savingDisplayGroups">"正在保存显示选项..."</string>
+    <string name="menu_done">"完成"</string>
+    <string name="menu_doNotSave">"取消"</string>
+    <string name="listAllContactsInAccount">"<xliff:g id="NAME">%s</xliff:g> 中的联系人"</string>
+    <string name="listCustomView">"自定义视图中的联系人"</string>
+    <string name="listSingleContact">"单个联系人"</string>
+    <string name="dialog_new_contact_account">"在以下帐户中创建联系人："</string>
+    <string name="import_from_sim">"从 SIM 卡导入"</string>
+    <string name="import_from_sdcard">"从存储设备导入"</string>
+    <string name="cancel_import_confirmation_message">"要取消导入“<xliff:g id="FILENAME">%s</xliff:g>”吗？"</string>
+    <string name="cancel_export_confirmation_message">"要取消导出“<xliff:g id="FILENAME">%s</xliff:g>”吗？"</string>
+    <string name="cancel_vcard_import_or_export_failed">"无法取消导入/导出 vCard"</string>
+    <string name="fail_reason_unknown">"未知错误。"</string>
+    <string name="fail_reason_could_not_open_file">"无法打开“<xliff:g id="FILE_NAME">%s</xliff:g>”：<xliff:g id="EXACT_REASON">%s</xliff:g>。"</string>
+    <string name="fail_reason_could_not_initialize_exporter">"无法启动导出程序：“<xliff:g id="EXACT_REASON">%s</xliff:g>”。"</string>
+    <string name="fail_reason_no_exportable_contact">"没有可导出的联系人。"</string>
+    <string name="fail_reason_error_occurred_during_export">"导出时出错：“<xliff:g id="EXACT_REASON">%s</xliff:g>”。"</string>
+    <string name="fail_reason_too_long_filename">"指定的文件名过长（“<xliff:g id="FILENAME">%s</xliff:g>”）。"</string>
+    <string name="fail_reason_too_many_vcard">"SD 卡上的 vCard 文件过多。"</string>
+    <string name="fail_reason_io_error">"I/O 错误"</string>
+    <string name="fail_reason_low_memory_during_import">"内存不足。该文件可能过大。"</string>
+    <string name="fail_reason_vcard_parse_error">"由于意外原因而无法解析 vCard。"</string>
+    <string name="fail_reason_not_supported">"不支持此格式。"</string>
+    <string name="fail_reason_failed_to_collect_vcard_meta_info">"无法收集指定 vCard 文件的元信息。"</string>
+    <string name="fail_reason_failed_to_read_files">"一个或多个文件无法导入 (%s)。"</string>
+    <string name="exporting_vcard_finished_title">"已顺利导出“<xliff:g id="FILENAME">%s</xliff:g>”。"</string>
+    <string name="exporting_vcard_canceled_title">"已取消导出“<xliff:g id="FILENAME">%s</xliff:g>”。"</string>
+    <string name="exporting_contact_list_title">"正在导出联系人数据"</string>
+    <string name="exporting_contact_list_message">"正在将您的联系人数据导出到以下文件：<xliff:g id="FILE_NAME">%s</xliff:g>。"</string>
+    <string name="composer_failed_to_get_database_infomation">"无法获取数据库信息。"</string>
+    <string name="composer_has_no_exportable_contact">"没有可导出的联系人。如果您手机上确实存有联系人信息，则可能是某些数据源不允许您从手机中导出联系人信息。"</string>
+    <string name="composer_not_initialized">"vCard 制作程序未正确启动。"</string>
+    <string name="exporting_contact_failed_title">"无法导出"</string>
+    <string name="exporting_contact_failed_message">"未导出联系人数据。\n原因：“<xliff:g id="FAIL_REASON">%s</xliff:g>”"</string>
+    <string name="no_sdcard_message">"找不到 SD 卡。"</string>
+    <string name="confirm_export_message">"系统会将您的联系人列表导出到以下文件：<xliff:g id="VCARD_FILENAME">%s</xliff:g>。"</string>
+    <string name="importing_vcard_description">"正在导入<xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="reading_vcard_failed_title">"无法读取 vCard 数据"</string>
+    <string name="reading_vcard_canceled_title">"已取消读取 vCard 数据"</string>
+    <string name="importing_vcard_finished_title">"已顺利导入 vCard <xliff:g id="FILENAME">%s</xliff:g>"</string>
+    <string name="importing_vcard_canceled_title">"已取消导入“<xliff:g id="FILENAME">%s</xliff:g>”"</string>
+    <string name="vcard_import_will_start_message">"“<xliff:g id="FILENAME">%s</xliff:g>”将在稍后导入。"</string>
+    <string name="vcard_import_will_start_message_with_default_name">"该文件将在稍后导入。"</string>
+    <string name="vcard_import_request_rejected_message">"vCard 导入请求遭拒，请稍后重试。"</string>
+    <string name="vcard_export_will_start_message">"“<xliff:g id="FILENAME">%s</xliff:g>”将在稍后导出。"</string>
+    <string name="vcard_export_request_rejected_message">"vCard 导出请求遭拒，请稍后重试。"</string>
+    <string name="vcard_unknown_filename">"联系人"</string>
+    <string name="caching_vcard_message">"正在将 vCard 缓存到本地临时存储空间。实际导入操作即将开始。"</string>
+    <string name="percentage">"<xliff:g id="PERCENTAGE">%s</xliff:g><xliff:g id="PERCENTSIGN">%%</xliff:g>"</string>
+    <string name="vcard_import_failed">"无法导入 vCard。"</string>
+    <string name="import_failure_no_vcard_file">"未在 SD 卡上找到 vCard 文件。"</string>
+    <string name="nfc_vcard_file_name">"通过 NFC 收到的联系人"</string>
+    <string name="confirm_export_title">"要导出联系人吗？"</string>
+    <string name="select_vcard_title">"选择 vCard 文件"</string>
+    <string name="import_one_vcard_string">"导入一个 vCard 文件"</string>
+    <string name="import_multiple_vcard_string">"导入多个 vCard 文件"</string>
+    <string name="import_all_vcard_string">"导入所有 vCard 文件"</string>
+    <string name="searching_vcard_message">"正在搜索 SD 卡中的 vCard 数据..."</string>
+    <string name="caching_vcard_title">"正在缓存"</string>
+    <string name="scanning_sdcard_failed_message">"无法扫描 SD 卡（原因：“<xliff:g id="FAIL_REASON">%s</xliff:g>”）。"</string>
+    <string name="progress_notifier_message">"正在导入 - <xliff:g id="CURRENT_NUMBER">%s</xliff:g>/<xliff:g id="TOTAL_NUMBER">%s</xliff:g>：<xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="export_to_sdcard">"导出到存储设备"</string>
+    <string name="share_visible_contacts">"分享所显示的联系人"</string>
+    <string name="dialog_import_export">"导入/导出联系人"</string>
+    <string name="dialog_import">"导入联系人"</string>
+    <string name="share_error">"无法分享此联系人。"</string>
+    <string name="menu_search">"搜索"</string>
+    <string name="menu_contacts_filter">"要显示的联系人"</string>
+    <string name="activity_title_contacts_filter">"要显示的联系人"</string>
+    <string name="custom_list_filter">"自定义视图"</string>
+    <string name="hint_findContacts">"查找联系人"</string>
+    <string name="contactsFavoritesLabel">"收藏"</string>
+    <string name="listTotalAllContactsZero">"没有联系人。"</string>
+    <string name="listTotalAllContactsZeroCustom">"没有可显示的联系人。"</string>
+    <string name="listTotalAllContactsZeroStarred">"没有收藏。"</string>
+    <string name="listTotalAllContactsZeroGroup">"<xliff:g id="NAME">%s</xliff:g>中没有联系人"</string>
+    <string name="menu_clear_frequents">"清除常用联系人"</string>
+    <string name="menu_accounts">"帐户"</string>
+    <string name="menu_import_export">"导入/导出"</string>
+    <string name="description_send_message">"向<xliff:g id="NAME">%1$s</xliff:g>发短信"</string>
+    <string name="description_dial_phone_number">"拨打<xliff:g id="NAME">%1$s</xliff:g>的电话"</string>
+    <string name="config_export_vcard_type">default</string>
+    <string name="config_import_vcard_type">default</string>
+    <string name="config_export_file_extension">vcf</string>
+
+
+    <string name="phoneAppLabel" product="default">"手机"</string>
+    <string name="onHold">"保持"</string>
+    <string name="callFailed_userBusy">"线路忙"</string>
+    <string name="callFailed_congestion">"网络忙"</string>
+    <string name="callFailed_timedOut">"无响应，已超时"</string>
+    <string name="callFailed_server_unreachable">"无法连接到服务器"</string>
+    <string name="callFailed_number_unreachable">"该号码无法拨通"</string>
+    <string name="callFailed_invalid_credentials">"用户名或密码错误"</string>
+    <string name="callFailed_out_of_network">"网外呼叫"</string>
+    <string name="callFailed_server_error">"服务器错误，请稍后再试。"</string>
+    <string name="callFailed_noSignal">"无信号"</string>
+    <string name="callFailed_limitExceeded">"超出 ACM 限制"</string>
+    <string name="callFailed_powerOff">"已关闭天线"</string>
+    <string name="callFailed_simError">"无 SIM 卡或 SIM 卡出错"</string>
+    <string name="callFailed_outOfService">"不在服务区"</string>
+    <string name="callFailed_fdn_only">"外拨电话受固定拨号限制。"</string>
+    <string name="callFailed_cb_enabled">"您无法在已启用通话限制的情况下拨出电话。"</string>
+    <string name="callFailed_dsac_restricted">"所有通话都受访问控制限制。"</string>
+    <string name="callFailed_dsac_restricted_emergency">"急救或报警电话受访问控制限制。"</string>
+    <string name="callFailed_dsac_restricted_normal">"正常通话受访问控制限制。"</string>
+    <string name="callFailed_unobtainable_number">"号码无效"</string>
+    <string name="confCall">"电话会议"</string>
+    <string name="call_lost">"通话已中断。"</string>
+    <string name="ok">"确定"</string>
+    <string name="audio_mode_speaker">"扬声器"</string>
+    <string name="audio_mode_earpiece">"手机听筒"</string>
+    <string name="audio_mode_wired_headset">"有线耳机"</string>
+    <string name="audio_mode_bluetooth">"蓝牙"</string>
+    <string name="wait_prompt_str">"发送以下音频？\n"</string>
+    <string name="pause_prompt_str">"正在发送双音频\n"</string>
+    <string name="send_button">"发送"</string>
+    <string name="pause_prompt_yes">"是"</string>
+    <string name="pause_prompt_no">"否"</string>
+    <string name="wild_prompt_str">"将通配符替换为"</string>
+    <string name="no_vm_number">"缺少语音信箱号码"</string>
+    <string name="no_vm_number_msg">"SIM 卡上未存储语音信箱号码。"</string>
+    <string name="add_vm_number_str">"添加号码"</string>
+    <string name="puk_unlocked">"您的 SIM 卡已解锁。正在解锁您的手机..."</string>
+    <string name="label_ndp">"SIM 网络解锁 PIN"</string>
+    <string name="sim_ndp_unlock_text">"解锁"</string>
+    <string name="sim_ndp_dismiss_text">"关闭"</string>
+    <string name="requesting_unlock">"正在请求网络解锁..."</string>
+    <string name="unlock_failed">"网络解锁请求失败。"</string>
+    <string name="unlock_success">"网络解锁成功。"</string>
+    <string name="labelGSMMore">"GSM 通话设置"</string>
+    <string name="labelCDMAMore">"CDMA 通话设置"</string>
+    <string name="apn_settings">"接入点名称 (APN)"</string>
+    <string name="settings_label">"网络设置"</string>
+    <string name="voicemail_abbreviated">"语音信箱："</string>
+    <string name="networks">"网络运营商"</string>
+    <string name="additional_gsm_call_settings">"其他设置"</string>
+    <string name="sum_gsm_call_settings">"其他仅适用于 GSM 通话的设置"</string>
+    <string name="additional_cdma_call_settings">"其他 CDMA 通话设置"</string>
+    <string name="sum_cdma_call_settings">"仅适用于 CDMA 的其他通话设置"</string>
+    <string name="labelNwService">"网络服务设置"</string>
+    <string name="labelCallerId">"本机号码"</string>
+    <string name="sum_loading_settings">"正在加载设置..."</string>
+    <string name="sum_hide_caller_id">"外拨电话时隐藏本机号码"</string>
+    <string name="sum_show_caller_id">"外拨电话时显示本机号码"</string>
+    <string name="sum_default_caller_id">"外拨电话时按照运营商的默认设置来显示本机号码"</string>
+    <string name="labelCW">"来电等待"</string>
+    <string name="sum_cw_enabled">"在通话期间，通知我有其他来电"</string>
+    <string name="sum_cw_disabled">"在通话期间，通知我有其他来电"</string>
+    <string name="call_forwarding_settings">"来电转接设置"</string>
+    <string name="labelCF">"来电转接"</string>
+    <string name="labelCFU">"始终转接"</string>
+    <string name="messageCFU">"始终使用此号码"</string>
+    <string name="sum_cfu_enabled_indicator">"转接所有来电"</string>
+    <string name="sum_cfu_enabled">"将所有来电转接到 <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfu_enabled_no_number">"未提供电话号码"</string>
+    <string name="sum_cfu_disabled">"未启用"</string>
+    <string name="labelCFB">"占线时转接"</string>
+    <string name="messageCFB">"占线时的转接号码"</string>
+    <string name="sum_cfb_enabled">"转接到 <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfb_disabled">"未启用"</string>
+    <string name="disable_cfb_forbidden">"您的运营商不支持在手机占线时停用来电转接功能。"</string>
+    <string name="labelCFNRy">"无人接听时转接"</string>
+    <string name="messageCFNRy">"无人接听时的转接号码"</string>
+    <string name="sum_cfnry_enabled">"转接到 <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnry_disabled">"未启用"</string>
+    <string name="disable_cfnry_forbidden">"您的运营商不支持在手机无人接听时停用来电转接功能。"</string>
+    <string name="labelCFNRc">"无法接通时转接"</string>
+    <string name="messageCFNRc">"无法接通时的转接号码"</string>
+    <string name="sum_cfnrc_enabled">"转接到 <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnrc_disabled">"未启用"</string>
+    <string name="disable_cfnrc_forbidden">"您的运营商不支持在手机无法接通时停用来电转接功能。"</string>
+    <string name="updating_title">"通话设置"</string>
+    <string name="error_updating_title">"通话设置出错"</string>
+    <string name="reading_settings">"正在读取设置..."</string>
+    <string name="updating_settings">"正在更新设置..."</string>
+    <string name="reverting_settings">"正在恢复设置..."</string>
+    <string name="response_error">"网络响应异常。"</string>
+    <string name="exception_error">"网络或 SIM 卡出错。"</string>
+    <string name="fdn_check_failure">"拨号应用的固定拨号设置已启用。因此，部分与拨号相关的功能将不能正常使用。"</string>
+    <string name="radio_off_error">"请先开启无线装置，然后再查看这些设置。"</string>
+    <string name="close_dialog">"确定"</string>
+    <string name="enable">"启用"</string>
+    <string name="disable">"禁用"</string>
+    <string name="change_num">"更新"</string>
+    <string-array name="clir_display_values">
+        <item>"网络默认设置"</item>
+        <item>"隐藏号码"</item>
+        <item>"显示号码"</item>
+    </string-array>
+    <string name="vm_changed">"语音信箱号码已更改。"</string>
+    <string name="vm_change_failed">"无法更改语音信箱号码。\n如果此问题仍然存在，请与您的运营商联系。"</string>
+    <string name="fw_change_failed">"无法更改转接号码。\n如果此问题仍然存在，请与您的运营商联系。"</string>
+    <string name="fw_get_in_vm_failed">"无法检索和保存当前转接号码设置。\n仍然要切换到新的服务提供商吗？"</string>
+    <string name="no_change">"未做任何更改。"</string>
+    <string name="sum_voicemail_choose_provider">"选择语音信箱服务"</string>
+    <string name="voicemail_default">"我的运营商"</string>
+    <string name="mobile_networks">"移动网络设置"</string>
+    <string name="label_available">"可用网络"</string>
+    <string name="load_networks_progress">"正在搜索..."</string>
+    <string name="empty_networks_list">"未找到网络。"</string>
+    <string name="search_networks">"搜索网络"</string>
+    <string name="network_query_error">"搜索网络时出错。"</string>
+    <string name="register_on_network">"正在<xliff:g id="NETWORK">%s</xliff:g>上注册..."</string>
+    <string name="not_allowed">"您的 SIM 卡不允许连接到此网络。"</string>
+    <string name="connect_later">"目前无法连接到此网络，请稍后重试。"</string>
+    <string name="registration_done">"已在网络上注册。"</string>
+    <string name="sum_carrier_select">"选择网络运营商"</string>
+    <string name="sum_search_networks">"搜索所有可用网络"</string>
+    <string name="select_automatically">"自动选择"</string>
+    <string name="sum_select_automatically">"自动选择首选网络"</string>
+    <string name="register_automatically">"自动注册..."</string>
+    <string name="preferred_network_mode_title">"网络模式"</string>
+    <string name="preferred_network_mode_summary">"更改网络运行方式"</string>
+    <string name="preferred_network_mode_dialogtitle">"首选网络模式"</string>
+    <string name="preferred_network_mode_wcdma_perf_summary">"首选网络模式：首选 WCDMA"</string>
+    <string name="preferred_network_mode_gsm_only_summary">"首选网络模式：仅限 GSM"</string>
+    <string name="preferred_network_mode_wcdma_only_summary">"首选网络模式：仅限 WCDMA"</string>
+    <string name="preferred_network_mode_gsm_wcdma_summary">"首选网络模式：GSM/WCDMA"</string>
+    <string name="preferred_network_mode_cdma_summary">"首选网络模式：CDMA"</string>
+    <string name="preferred_network_mode_cdma_evdo_summary">"首选网络模式：CDMA/EvDo"</string>
+    <string name="preferred_network_mode_cdma_only_summary">"首选网络模式：仅限 CDMA"</string>
+    <string name="preferred_network_mode_evdo_only_summary">"首选网络模式：仅限 EvDo"</string>
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">"首选网络模式：CDMA/EvDo/GSM/WCDMA"</string>
+    <string name="preferred_network_mode_lte_summary">"首选网络模式：LTE"</string>
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">"首选网络模式：GSM/WCDMA/LTE"</string>
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">"首选网络模式：CDMA+LTE/EVDO"</string>
+    <string name="preferred_network_mode_global_summary">"首选网络模式：通用"</string>
+    <string name="preferred_network_mode_lte_wcdma_summary">"首选网络模式：LTE/WCDMA"</string>
+    <string-array name="preferred_network_mode_choices">
+        <item>"LTE/WCDMA"</item>
+        <item>"LTE"</item>
+        <item>"通用"</item>
+        <item>"GSM/WCDMA/LTE"</item>
+        <item>"CDMA + LTE/EvDo"</item>
+        <item>"CDMA/EvDo/GSM/WCDMA"</item>
+        <item>"仅 EvDo"</item>
+        <item>"CDMA，无 EvDo 功能"</item>
+        <item>"CDMA/EvDo 自动选择"</item>
+        <item>"GSM/WCDMA 自动选择"</item>
+        <item>"仅 WCDMA"</item>
+        <item>"仅 GSM"</item>
+        <item>"首选 GSM/WCDMA"</item>
+    </string-array>
+    <string name="data_enabled">"启用数据网络"</string>
+    <string name="data_enable_summary">"允许通过移动网络存取数据"</string>
+    <string name="roaming">"移动数据网络漫游"</string>
+    <string name="roaming_enable">"漫游时连接到移动数据网络服务"</string>
+    <string name="roaming_disable">"漫游时连接到移动数据网络服务"</string>
+    <string name="roaming_reenable_message">"移动数据网络连接已断开，因为您已离开本地网络并关闭了移动数据网络漫游功能。"</string>
+    <string name="roaming_warning">"是否要允许移动数据网络漫游？这可能产生大量漫游费！"</string>
+    <string name="gsm_umts_options">"GSM/UMTS 选项"</string>
+    <string name="cdma_options">"CDMA 选项"</string>
+    <string name="throttle_data_usage">"流量使用情况"</string>
+    <string name="throttle_current_usage">"当前时段使用的数据"</string>
+    <string name="throttle_time_frame">"数据使用时段"</string>
+    <string name="throttle_rate">"数据传输速率政策"</string>
+    <string name="throttle_help">"了解详情"</string>
+    <string name="throttle_status_subtext">"时段上限为 <xliff:g id="USED_2">%3$s</xliff:g>，当前值为 <xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪)\n下一个时段从 <xliff:g id="USED_3">%4$d</xliff:g> 天后 (<xliff:g id="USED_4">%5$s</xliff:g>) 开始"</string>
+    <string name="throttle_data_usage_subtext">"时段上限为 <xliff:g id="USED_2">%3$s</xliff:g>，当前值为 <xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪)"</string>
+    <string name="throttle_data_rate_reduced_subtext">"已超过<xliff:g id="USED_0">%1$s</xliff:g>速率上限\n数据传输速率已降至 <xliff:g id="USED_1">%2$d</xliff:g> Kb/s。"</string>
+    <string name="throttle_time_frame_subtext">"此周期已过去 <xliff:g id="USED_0">%1$d</xliff:g>٪\n下一个时段将从 <xliff:g id="USED_1">%2$d</xliff:g> 天后 (<xliff:g id="USED_2">%3$s</xliff:g>) 开始"</string>
+    <string name="throttle_rate_subtext">"如果超过了流量上限，则数据传输速率会降至 <xliff:g id="USED">%1$d</xliff:g> Kb/s"</string>
+    <string name="throttle_help_subtext">"有关您运营商的移动网络数据使用政策的详情"</string>
+    <string name="cell_broadcast_sms">"小区广播短信"</string>
+    <string name="enable_disable_cell_bc_sms">"小区广播短信"</string>
+    <string name="cell_bc_sms_enable">"已启用小区广播短信"</string>
+    <string name="cell_bc_sms_disable">"已停用小区广播短信"</string>
+    <string name="cb_sms_settings">"小区广播短信设置"</string>
+    <string name="enable_disable_emergency_broadcast">"紧急广播"</string>
+    <string name="emergency_broadcast_enable">"已启用紧急广播"</string>
+    <string name="emergency_broadcast_disable">"已停用紧急广播"</string>
+    <string name="enable_disable_administrative">"管理"</string>
+    <string name="administrative_enable">"已启用管理"</string>
+    <string name="administrative_disable">"已停用管理"</string>
+    <string name="enable_disable_maintenance">"维护"</string>
+    <string name="maintenance_enable">"已启用维护"</string>
+    <string name="maintenance_disable">"已停用维护"</string>
+    <string name="general_news_settings">"一般新闻"</string>
+    <string name="bf_news_settings">"商业财经新闻"</string>
+    <string name="sports_news_settings">"体育新闻"</string>
+    <string name="entertainment_news_settings">"娱乐新闻"</string>
+    <string name="enable_disable_local">"本地"</string>
+    <string name="local_enable">"已启用本地新闻"</string>
+    <string name="local_disable">"已停用本地新闻"</string>
+    <string name="enable_disable_regional">"区域"</string>
+    <string name="regional_enable">"已启用地方新闻"</string>
+    <string name="regional_disable">"已停用地方新闻"</string>
+    <string name="enable_disable_national">"国内"</string>
+    <string name="national_enable">"已启用国内新闻"</string>
+    <string name="national_disable">"已停用国内新闻"</string>
+    <string name="enable_disable_international">"国际"</string>
+    <string name="international_enable">"已启用国际新闻"</string>
+    <string name="international_disable">"已停用国际新闻"</string>
+    <string name="list_language_title">"语言"</string>
+    <string name="list_language_summary">"选择新闻语言"</string>
+    <string-array name="list_language_entries">
+        <item>"英语"</item>
+        <item>"法语"</item>
+        <item>"西班牙语"</item>
+        <item>"日语"</item>
+        <item>"韩语"</item>
+        <item>"中文"</item>
+        <item>"希伯来语"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"语言"</string>
+    <string name="enable_disable_local_weather">"本地天气"</string>
+    <string name="local_weather_enable">"已启用本地天气预报"</string>
+    <string name="local_weather_disable">"已停用本地天气预报"</string>
+    <string name="enable_disable_atr">"区域路况报告"</string>
+    <string name="atr_enable">"已启用区域路况报导"</string>
+    <string name="atr_disable">"已停用区域路况报导"</string>
+    <string name="enable_disable_lafs">"本地机场航班时刻表"</string>
+    <string name="lafs_enable">"已启用本地机场航班时刻表"</string>
+    <string name="lafs_disable">"已停用本地机场航班时刻表"</string>
+    <string name="enable_disable_restaurants">"餐馆"</string>
+    <string name="restaurants_enable">"已启用餐馆信息"</string>
+    <string name="restaurants_disable">"已停用餐馆信息"</string>
+    <string name="enable_disable_lodgings">"房屋租赁信息"</string>
+    <string name="lodgings_enable">"已启用房屋租赁信息"</string>
+    <string name="lodgings_disable">"已停用房屋租赁信息"</string>
+    <string name="enable_disable_retail_directory">"零售目录"</string>
+    <string name="retail_directory_enable">"已启用零售店名录"</string>
+    <string name="retail_directory_disable">"已停用零售店名录"</string>
+    <string name="enable_disable_advertisements">"广告"</string>
+    <string name="advertisements_enable">"已启用广告"</string>
+    <string name="advertisements_disable">"已停用广告"</string>
+    <string name="enable_disable_stock_quotes">"股票报价"</string>
+    <string name="stock_quotes_enable">"已启用股票报价"</string>
+    <string name="stock_quotes_disable">"已停用股票价格"</string>
+    <string name="enable_disable_eo">"招聘信息"</string>
+    <string name="eo_enable">"已启用招聘信息"</string>
+    <string name="eo_disable">"已停用招聘信息"</string>
+    <string name="enable_disable_mhh">"医疗、保健和医院"</string>
+    <string name="mhh_enable">"医疗、保健和医院信息已启用"</string>
+    <string name="mhh_disable">"医疗、保健和医院信息已停用"</string>
+    <string name="enable_disable_technology_news">"技术新闻"</string>
+    <string name="technology_news_enable">"已启用技术新闻"</string>
+    <string name="technology_news_disable">"已停用技术新闻"</string>
+    <string name="enable_disable_multi_category">"多类别"</string>
+    <string name="multi_category_enable">"已启用多类别"</string>
+    <string name="multi_category_disable">"已停用多类别"</string>
+    <string name="prefer_2g">"仅使用 2G 网络"</string>
+    <string name="prefer_2g_summary">"省电"</string>
+    <string name="cdma_system_select_title">"系统选择"</string>
+    <string name="cdma_system_select_summary">"更改 CDMA 漫游模式"</string>
+    <string name="cdma_system_select_dialogtitle">"系统选择"</string>
+    <string-array name="cdma_system_select_choices">
+        <item>"仅本地系统"</item>
+        <item>"自动"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"CDMA 订阅"</string>
+    <string name="cdma_subscription_summary">"在 RUIM/SIM 和 NV 之间进行切换"</string>
+    <string name="cdma_subscription_dialogtitle">"订阅"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="cdma_activate_device">"激活设备"</string>
+    <string name="cdma_lte_data_service">"设置数据服务"</string>
+    <string name="fdn">"固定拨号"</string>
+    <string name="manage_fdn_list">"固定拨号列表"</string>
+    <string name="fdn_activation">"激活固定拨号"</string>
+    <string name="fdn_enabled">"已启用固定拨号"</string>
+    <string name="fdn_disabled">"未启用固定拨号"</string>
+    <string name="enable_fdn">"启用固定拨号"</string>
+    <string name="disable_fdn">"停用固定拨号"</string>
+    <string name="change_pin2">"更改 PIN2"</string>
+    <string name="enable_fdn_ok">"停用固定拨号"</string>
+    <string name="disable_fdn_ok">"启用固定拨号"</string>
+    <string name="sum_fdn">"管理固定拨号"</string>
+    <string name="sum_fdn_change_pin">"更改使用固定拨号所需的 PIN 码"</string>
+    <string name="sum_fdn_manage_list">"管理手机号码列表"</string>
+    <string name="voice_privacy">"语音隐私权"</string>
+    <string name="voice_privacy_summary">"启用增强型隐秘模式"</string>
+    <string name="tty_mode_option_title">"TTY 模式"</string>
+    <string name="tty_mode_option_summary">"设置 TTY 模式"</string>
+    <string name="auto_retry_mode_title">"自动重拨"</string>
+    <string name="auto_retry_mode_summary">"启用自动重拨模式"</string>
+    <string name="menu_add">"添加联系人"</string>
+    <string name="menu_edit">"编辑联系人"</string>
+    <string name="menu_delete">"删除联系人"</string>
+    <string name="get_pin2">"键入 PIN2"</string>
+    <string name="name">"名称"</string>
+    <string name="number">"号码"</string>
+    <string name="save">"保存"</string>
+    <string name="add_fdn_contact">"添加固定拨号联系人"</string>
+    <string name="adding_fdn_contact">"正在添加固定拨号联系人..."</string>
+    <string name="fdn_contact_added">"已添加固定拨号联系人。"</string>
+    <string name="edit_fdn_contact">"编辑固定拨号联系人"</string>
+    <string name="updating_fdn_contact">"正在更新固定拨号联系人..."</string>
+    <string name="fdn_contact_updated">"已更新固定拨号联系人。"</string>
+    <string name="delete_fdn_contact">"删除固定拨号联系人"</string>
+    <string name="deleting_fdn_contact">"正在删除固定拨号联系人..."</string>
+    <string name="fdn_contact_deleted">"已删除固定拨号联系人。"</string>
+    <string name="pin2_invalid">"系统未更新 FDN，因为键入的 PIN 码有误。"</string>
+    <string name="fdn_invalid_number">"系统未更新 FDN，因为号码不能超过 20 位。"</string>
+    <string name="pin2_or_fdn_invalid">"FDN 未更新。PIN2 有误，或电话号码遭拒。"</string>
+    <string name="simContacts_empty">"SIM 卡上无联系人。"</string>
+    <string name="simContacts_airplaneMode">"要从 SIM 卡导入联系人，请先关闭飞行模式。"</string>
+    <string name="enable_pin">"启用/禁用 SIM 卡 PIN"</string>
+    <string name="change_pin">"更改 SIM 卡 PIN"</string>
+    <string name="enter_pin_text">"SIM 卡 PIN："</string>
+    <string name="oldPinLabel">"旧 PIN"</string>
+    <string name="newPinLabel">"新 PIN"</string>
+    <string name="confirmPinLabel">"确认新 PIN"</string>
+    <string name="badPin">"键入的旧 PIN 有误，请重试。"</string>
+    <string name="mismatchPin">"键入的 PIN 不一致，请重试。"</string>
+    <string name="invalidPin">"输入 4 到 8 位数字的 PIN。"</string>
+    <string name="disable_sim_pin">"停用 SIM 卡 PIN"</string>
+    <string name="enable_sim_pin">"启用 SIM 卡 PIN"</string>
+    <string name="enable_in_progress">"请稍候..."</string>
+    <string name="enable_pin_ok">"SIM 卡 PIN 已启用。"</string>
+    <string name="disable_pin_ok">"未启用 SIM 卡 PIN 码。"</string>
+    <string name="pin_failed">"键入的 PIN 有误。"</string>
+    <string name="pin_changed">"已成功更改 SIM 卡 PIN。"</string>
+    <string name="puk_requested">"密码不正确，SIM 已锁定！需要 PUK2。"</string>
+    <string name="enter_pin2_text">"PIN2"</string>
+    <string name="oldPin2Label">"旧 PIN2"</string>
+    <string name="newPin2Label">"新 PIN2"</string>
+    <string name="confirmPin2Label">"确认新 PIN2"</string>
+    <string name="badPuk2">"键入的 PUK2 有误，请重试。"</string>
+    <string name="badPin2">"您键入的旧 PIN2 有误，请重试。"</string>
+    <string name="mismatchPin2">"键入的 PIN2 不一致，请重试。"</string>
+    <string name="invalidPin2">"输入 4 到 8 位数字的 PIN2。"</string>
+    <string name="invalidPuk2">"输入 8 位数字的 PUK2。"</string>
+    <string name="pin2_changed">"已成功更改 PIN2。"</string>
+    <string name="label_puk2_code">"输入 PUK2 码"</string>
+    <string name="fdn_enable_puk2_requested">"密码有误，请更改 PIN2 并重试。"</string>
+    <string name="puk2_requested">"密码有误，SIM 卡已锁定。需要 PUK2。"</string>
+    <string name="doneButton">"完成"</string>
+    <string name="caller_manage_header">"电话会议<xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="voicemail_settings_number_label">"语音信箱号码"</string>
+    <string name="card_title_dialing">"正在拨号"</string>
+    <string name="card_title_redialing">"正在重拨"</string>
+    <string name="card_title_conf_call">"电话会议"</string>
+    <string name="card_title_incoming_call">"来电"</string>
+    <string name="card_title_call_ended">"通话结束"</string>
+    <string name="card_title_on_hold">"保持"</string>
+    <string name="card_title_hanging_up">"正在挂断"</string>
+    <string name="card_title_in_call">"正在通话"</string>
+    <string name="card_title_my_phone_number">"我的手机号码：<xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_dialing">"正在拨号"</string>
+    <string name="notification_missedCallTitle">"未接电话"</string>
+    <string name="notification_missedCallsTitle">"未接电话"</string>
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> 个未接电话"</string>
+    <string name="notification_missedCallTicker">"来自<xliff:g id="MISSED_CALL_FROM">%s</xliff:g>的未接电话"</string>
+    <string name="notification_ongoing_call">"当前通话"</string>
+    <string name="notification_on_hold">"保持"</string>
+    <string name="notification_incoming_call">"来电"</string>
+    <string name="notification_voicemail_title">"新语音邮件"</string>
+    <string name="notification_voicemail_title_count">"新语音邮件 (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format">"拨打 <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number">"语音信箱号码未知"</string>
+    <string name="notification_network_selection_title">"无服务"</string>
+    <string name="notification_network_selection_text">"所选网络（<xliff:g id="OPERATOR_NAME">%s</xliff:g>）不可用"</string>
+    <string name="notification_action_end_call">"挂断"</string>
+    <string name="notification_missedCall_call_back">"回拨"</string>
+    <string name="notification_missedCall_message">"短信"</string>
+    <string name="incall_error_power_off">"要进行呼叫，请先关闭飞行模式。"</string>
+    <string name="incall_error_emergency_only">"尚未注册网络。"</string>
+    <string name="incall_error_out_of_service">"无法访问移动网络"</string>
+    <string name="incall_error_no_phone_number_supplied">"拨号未送出，因为输入的号码无效。"</string>
+    <string name="incall_error_call_failed">"拨号未送出。"</string>
+    <string name="incall_status_dialed_mmi">"正在启动 MMI 序列..."</string>
+    <string name="incall_error_supp_service_unknown">"不支持此服务。"</string>
+    <string name="incall_error_supp_service_switch">"无法切换通话。"</string>
+    <string name="incall_error_supp_service_separate">"无法分离通话。"</string>
+    <string name="incall_error_supp_service_transfer">"无法转移呼叫。"</string>
+    <string name="incall_error_supp_service_conference">"无法进行电话会议。"</string>
+    <string name="incall_error_supp_service_reject">"无法拒绝呼叫。"</string>
+    <string name="incall_error_supp_service_hangup">"无法挂断。"</string>
+    <string name="incall_call_type_label_sip">"互联网电话"</string>
+    <string name="emergency_enable_radio_dialog_title">"紧急呼救"</string>
+    <string name="emergency_enable_radio_dialog_message">"正在打开天线..."</string>
+    <string name="emergency_enable_radio_dialog_retry">"不在服务区，正在重试..."</string>
+    <string name="dial_emergency_error">"电话未拨出，<xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> 不是紧急呼救号码！"</string>
+    <string name="dial_emergency_empty_error">"电话未拨出，请拨打紧急呼救电话！"</string>
+    <string name="onscreenHoldText">"等待"</string>
+    <string name="onscreenEndCallText">"挂断"</string>
+    <string name="onscreenShowDialpadText">"拨号键盘"</string>
+    <string name="onscreenMuteText">"静音"</string>
+    <string name="onscreenAddCallText">"添加通话"</string>
+    <string name="onscreenMergeCallsText">"合并通话"</string>
+    <string name="onscreenSwapCallsText">"交换"</string>
+    <string name="onscreenManageCallsText">"管理通话"</string>
+    <string name="onscreenManageConferenceText">"管理会议"</string>
+    <string name="onscreenAudioText">"音频"</string>
+    <string name="onscreenVideoCallText">"视频通话"</string>
+    <string name="importSimEntry">"导入"</string>
+    <string name="importAllSimEntries">"全部导入"</string>
+    <string name="importingSimContacts">"正在导入 SIM 联系人"</string>
+    <string name="importToFDNfromContacts">"从联系人导入"</string>
+    <string name="hac_mode_title">"助听器"</string>
+    <string name="hac_mode_summary">"启用助听器兼容模式"</string>
+    <string-array name="tty_mode_entries">
+        <item>"未启用 TTY"</item>
+        <item>"TTY 完整"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <string name="dtmf_tones_title">"DTMF 音"</string>
+    <string name="dtmf_tones_summary">"设置 DTMF 音长度"</string>
+    <string-array name="dtmf_tone_entries">
+        <item>"正常"</item>
+        <item>"长"</item>
+    </string-array>
+    <string name="network_message">"网络讯息"</string>
+    <string name="ota_title_activate">"激活您的手机"</string>
+    <string name="ota_touch_activate">"需要拨打特别号码才能激活您的手机服务。\n\n在按下“激活”后，按照语音提示激活您的手机。"</string>
+    <string name="ota_skip_activation_dialog_title">"略过激活步骤？"</string>
+    <string name="ota_skip_activation_dialog_message">"如果您略过激活步骤，就无法拨打电话或连接到移动数据网络（不过您可以连接到 WLAN 网络）。如果您不激活手机，每次开机时都会收到激活提示。"</string>
+    <string name="ota_skip_activation_dialog_skip_label">"跳过"</string>
+    <string name="ota_activate">"激活"</string>
+    <string name="ota_title_activate_success">"手机已激活。"</string>
+    <string name="ota_title_problem_with_activation">"激活时遇到问题"</string>
+    <string name="ota_listen">"按照语音提示操作，直至提示手机已激活。"</string>
+    <string name="ota_speaker">"免提"</string>
+    <string name="ota_progress">"正在向您的手机中写入程序，请稍候。"</string>
+    <string name="ota_failure">"写入程序失败"</string>
+    <string name="ota_successful">"您的手机已激活。最多 15 分钟即可开始使用服务。"</string>
+    <string name="ota_unsuccessful">"您的手机未激活。\n您可能需要找一个手机信号更好的位置（窗户附近或室外）。\n\n请重试或致电客户服务小组寻求更多解决方法。"</string>
+    <string name="ota_spc_failure">"SPC 故障太多"</string>
+    <string name="ota_call_end">"上一步"</string>
+    <string name="ota_try_again">"重试"</string>
+    <string name="ota_next">"下一步"</string>
+    <string name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string name="phone_entered_ecm_text">"已进入紧急回拨模式"</string>
+    <string name="phone_in_ecm_notification_title">"紧急回拨模式"</string>
+    <string name="phone_in_ecm_call_notification_text">"数据连接已停用"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="one">"持续 <xliff:g id="COUNT">%s</xliff:g> 分钟没有数据连接"</item>
+        <item quantity="other">"持续 <xliff:g id="COUNT">%s</xliff:g> 分钟没有数据连接"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="one">"手机在 <xliff:g id="COUNT">%s</xliff:g> 分钟内都会处于紧急回拨模式下，此模式下无法使用需要联网的应用。您要立即退出吗？"</item>
+        <item quantity="other">"手机在 <xliff:g id="COUNT">%s</xliff:g> 分钟内都会处于紧急回拨模式下，此模式下无法使用需要联网的应用。要立即退出吗？"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="one">"无法在紧急回拨模式下执行所选操作，而手机在 <xliff:g id="COUNT">%s</xliff:g> 分钟内都会处于此模式下。要立即退出吗？"</item>
+        <item quantity="other">"无法在紧急回拨模式下执行所选操作，而手机在 <xliff:g id="COUNT">%s</xliff:g> 分钟内都会处于此模式下。要立即退出吗？"</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">"进行紧急呼救时无法执行所选操作。"</string>
+    <string name="progress_dialog_exiting_ecm">"正在退出紧急回拨模式"</string>
+    <string name="alert_dialog_yes">"是"</string>
+    <string name="alert_dialog_no">"否"</string>
+    <string name="alert_dialog_dismiss">"关闭"</string>
+    <string name="voicemail_provider">"服务"</string>
+    <string name="voicemail_settings">"设置"</string>
+    <string name="voicemail_number_not_set">"&lt;未设置&gt;"</string>
+    <string name="other_settings">"其他通话设置"</string>
+    <string name="calling_via_template">"通过<xliff:g id="PROVIDER_NAME">%s</xliff:g>进行通话"</string>
+    <string name="contactPhoto">"联系人照片"</string>
+    <string name="goPrivate">"私聊"</string>
+    <string name="selectContact">"选择联系人"</string>
+    <string name="sip_settings">"互联网电话设置"</string>
+    <string name="sip_accounts">"互联网电话 (SIP) 帐户"</string>
+    <string name="sip_accounts_title">"帐户"</string>
+    <string name="sip_receive_calls">"接听来电"</string>
+    <string name="sip_receive_calls_summary">"会缩短电池待机时间"</string>
+    <string name="sip_call_options_title">"使用互联网电话"</string>
+    <string name="sip_call_options_wifi_only_title">"使用互联网电话（仅限 WLAN）"</string>
+    <string name="sip_call_options_entry_1">"数据网络接通时适用于所有通话"</string>
+    <string name="sip_call_options_entry_2">"仅适用于互联网电话"</string>
+    <string name="sip_call_options_entry_3">"每次呼叫时询问"</string>
+    <string name="sip_call_options_wifi_only_entry_1">"适用于所有通话"</string>
+    <string name="pick_outgoing_call_phone_type">"拨打电话"</string>
+    <string name="pick_outgoing_sip_phone">"使用互联网电话帐户："</string>
+    <string name="remember_my_choice">"总是用于拨打互联网电话"</string>
+    <string name="reset_my_choice_hint">"您可以在“手机”&gt;“设置”&gt;“互联网呼叫设置”&gt;“帐户”屏幕中更改默认使用的互联网呼叫帐户。"</string>
+    <string name="pstn_phone">"手机拨号"</string>
+    <string name="internet_phone">"互联网电话"</string>
+    <string name="no_sip_account_found_title">"没有互联网电话帐户"</string>
+    <string name="no_sip_account_found">"此手机上没有互联网呼叫帐户，要立即添加一个吗？"</string>
+    <string name="sip_menu_add">"添加"</string>
+    <string name="add_sip_account">"添加帐户"</string>
+    <string name="remove_sip_account">"删除帐户"</string>
+    <string name="sip_account_list">"SIP 帐户"</string>
+    <string name="saving_account">"正在保存帐户..."</string>
+    <string name="removing_account">"正在删除帐户..."</string>
+    <string name="sip_menu_save">"保存"</string>
+    <string name="sip_menu_discard">"舍弃"</string>
+    <string name="alert_dialog_close">"关闭个人资料"</string>
+    <string name="alert_dialog_ok">"确定"</string>
+    <string name="close_profile">"关闭"</string>
+    <string name="primary_account_summary_with">"主帐户。<xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
+    <string name="registration_status_checking_status">"正在检查状态..."</string>
+    <string name="registration_status_registering">"正在注册..."</string>
+    <string name="registration_status_still_trying">"仍在尝试..."</string>
+    <string name="registration_status_not_receiving">"不接听电话。"</string>
+    <string name="registration_status_no_data">"由于未连接至互联网，帐户注册已停止。"</string>
+    <string name="registration_status_no_wifi_data">"由于未连接到 WLAN 网络，帐户注册已停止。"</string>
+    <string name="registration_status_not_running">"帐户注册失败。"</string>
+    <string name="registration_status_done">"接听电话。"</string>
+    <string name="registration_status_failed_try_later">"帐户注册失败：（<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>）；系统会在稍后重试"</string>
+    <string name="registration_status_invalid_credentials">"帐户注册失败：用户名或密码有误。"</string>
+    <string name="registration_status_server_unreachable">"帐户注册失败：请检查服务器名称。"</string>
+    <string name="third_party_account_summary">"“<xliff:g id="ACCOUNT_OWNER">%s</xliff:g>”应用当前正在使用此帐户。"</string>
+    <string name="sip_edit_title">"SIP 帐户详情"</string>
+    <string name="sip_edit_new_title">"SIP 帐户详情"</string>
+    <string name="domain_address_title">"服务器"</string>
+    <string name="username_title">"用户名"</string>
+    <string name="password_title">"密码"</string>
+    <string name="display_name_title">"显示名称"</string>
+    <string name="proxy_address_title">"出站代理地址"</string>
+    <string name="port_title">"端口号"</string>
+    <string name="transport_title">"传输类型"</string>
+    <string name="send_keepalive_title">"发送持续连接消息"</string>
+    <string name="set_primary_title">"设置为主帐户"</string>
+    <string name="set_primary_summary">"用于外拨电话"</string>
+    <string name="advanced_settings">"可选设置"</string>
+    <string name="auth_username_title">"身份验证用户名"</string>
+    <string name="auth_username_summary">"用于身份验证的用户名"</string>
+    <string name="default_preference_summary">"&lt;未设置&gt;"</string>
+    <string name="display_name_summary">"&lt;与用户名相同&gt;"</string>
+    <string name="optional_summary">"&lt;可选&gt;"</string>
+    <string name="advanced_settings_show">"▷ 触摸可全部显示"</string>
+    <string name="advanced_settings_hide">"▽ 触摸可全部隐藏"</string>
+    <string name="empty_alert">"“<xliff:g id="INPUT_FIELD_NAME">%s</xliff:g>”属于必填字段，不能留空。"</string>
+    <string name="not_a_valid_port">"端口号应在 1000 与 655534 之间。"</string>
+    <string name="no_internet_available_title">"无互联网连接"</string>
+    <string name="no_wifi_available_title">"无 WLAN 连接"</string>
+    <string name="no_internet_available">"要拨打互联网电话，请先检查互联网连接情况。"</string>
+    <string name="no_wifi_available">"您需要连接到 WLAN 网络才能使用互联网电话（使用“无线与网络”设置）。"</string>
+    <string name="no_voip">"不支持互联网电话"</string>
+    <string name="sip_system_decide">"自动"</string>
+    <string name="sip_always_send_keepalive">"一律发送"</string>
+    <string name="not_voice_capable">"不支持语音呼叫"</string>
+    <string name="respond_via_sms_canned_response_1">"现在无法接听。有什么事吗？"</string>
+    <string name="respond_via_sms_canned_response_2">"我马上会打给你。"</string>
+    <string name="respond_via_sms_canned_response_3">"我稍后会再打给你。"</string>
+    <string name="respond_via_sms_canned_response_4">"现在无法接听。能稍后再打给我吗？"</string>
+    <string name="respond_via_sms_custom_message">"自行撰写回复…"</string>
+    <string name="custom_message_cancel">"取消"</string>
+    <string name="custom_message_send">"发送"</string>
+    <string name="respond_via_sms_setting_title">"快速回复"</string>
+    <string name="respond_via_sms_setting_title_2">"修改快速回复"</string>
+    <string name="respond_via_sms_setting_summary"></string>
+    <string name="respond_via_sms_edittext_dialog_title">"快速回复"</string>
+    <string name="respond_via_sms_menu_reset_default_activity">"重置默认应用"</string>
+    <string name="respond_via_sms_confirmation_format">"讯息已发送至 <xliff:g id="PHONE_NUMBER">%s</xliff:g>。"</string>
+    <string name="accessibility_speakerphone_enabled">"扬声器已启用。"</string>
+    <string name="accessibility_call_muted">"通话已静音。"</string>
+    <string name="description_target_answer">"接听"</string>
+    <string name="description_target_send_sms">"发送短信"</string>
+    <string name="description_target_decline">"拒绝"</string>
+    <string name="voicemail_notification_vibrate_when_title">"振动"</string>
+    <string name="voicemail_notification_vibarte_when_dialog_title">"振动"</string>
+    <string name="voicemail_notification_ringtone_title">"提示音"</string>
+    <string name="default_notification_description">"默认提示音 (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_title">"手机铃声"</string>
+    <string name="vibrate_on_ring_title">"响铃时振动"</string>
+    <string name="dtmf_tone_enable_title">"拨号键盘触摸音效"</string>
+    <string name="dial_pad_autocomplete">"拨号键盘自动补全"</string>
+    <string name="preference_category_ringtone">"铃声和振动"</string>
+    <string name="manageConferenceLabel">"管理电话会议"</string>
+    <string name="inCallLabel">InCallUI</string>
+    <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
+    <string name="fake_phone_activity_infoText_text">Incoming phone number</string>
+    <string name="fake_phone_activity_placeCall_text">Fake Incoming Call</string>
+    <string name="default_port">5060</string>
+    <string name="default_transport">UDP</string>
+    <string name="sip_always">SIP_ALWAYS</string>
+    <string name="sip_address_only">SIP_ADDRESS_ONLY</string>
+    <string name="sip_ask_me_each_time">SIP_ASK_ME_EACH_TIME</string>
+    <string name="domain_address">SipDomain</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="display_name">DisplayName</string>
+    <string name="proxy_address">ProxyAddress</string>
+    <string name="port">Port</string>
+    <string name="transport">Protocol</string>
+    <string name="send_keepalive">SendKeepAlive</string>
+    <string name="set_primary">SetPrimary</string>
+    <string name="advanced_settings_container">advanced settings container</string>
+    <string name="auth_username">AuthUserName</string>
+    <string name="voicemail_notification_vibrate_when_default">never</string>
+
+
+    <string-array name="clir_values">
+        <item><xliff:g>DEFAULT</xliff:g></item>
+        <item><xliff:g>HIDE</xliff:g></item>
+        <item><xliff:g>SHOW</xliff:g></item>
+    </string-array>
+
+
+    <string-array name="preferred_network_mode_values">
+        <item>"12"</item>
+        <item>"11"</item>
+        <item>"10"</item>
+        <item>"9"</item>
+        <item>"8"</item>
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>
+        <item>"4"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+        <item>"1"</item>
+        <item>"0"</item>
+    </string-array>
+
+
+    <string-array name="cdma_system_select_values">
+        <item>"0"</item>
+        <item>"2"</item>
+    </string-array>
+
+
+    <string-array name="tty_mode_values">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+        <!-- Do not translate. -->
+        <item>3</item>
+    </string-array>
+
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <string-array name="absent_num">
+        <item>ABSENT NUMBER</item>
+        <item>ABSENTNUMBER</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_values">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+
+    <string name="description_direction_up">"向上滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_down">"向下滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_left">"向左滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+    <string name="description_direction_right">"向右滑动以<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>。"</string>
+
+
+</resources>

@@ -1,0 +1,5 @@
+//include ':Phonenumbers'
+//include ':Incallui'
+//include ':ContactsCommon'
+include ':app'
+rootProject.name = "Dialer4"
